@@ -25,3 +25,4 @@ Server.swagger(app, {
 // Start server
 http.createServer(app).listen(3000);
 console.log("Listening at http://localhost:3000");
+console.log("Swagger url http://localhost:3000/help");
