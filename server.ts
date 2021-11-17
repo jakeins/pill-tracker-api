@@ -3,6 +3,7 @@ import http from 'http';
 import path from 'path';
 import fs from 'fs'; 
 import { Server } from 'typescript-rest';
+import cors from 'cors';
 
 const app: express.Application = express();
 
@@ -12,6 +13,7 @@ let staticPath = path.join(__dirname, './client');
 if (fs.existsSync(staticPath)) {
   app.use(express.static(staticPath));
 }
+app.use(cors());
 app.use(express.json());
 
 // Configure typescript-rest
