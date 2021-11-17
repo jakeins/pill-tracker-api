@@ -1,0 +1,11 @@
+export { IEntityRepository } from './entity-repository.interface';
+export { IId } from './id.interface';
+export { IMedication } from './entity/medication.interface';
+export { IProfile } from './entity/profile.interface';
+export { ITake } from './entity/take.interface';
+export { IUserPermission } from './entity/user-permission.interface';
+export { ITreatment } from './entity/treatment.interface';
+export { ISchedule } from './entity/schedule.interface';
+export { ISingle } from './single.interface';
+export { IUser } from './entity/user.interface';
+export { IPermission } from './entity/permission.interface';

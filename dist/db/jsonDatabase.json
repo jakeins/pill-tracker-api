@@ -1,0 +1,112 @@
+{
+    "treatment_collection": [
+        {
+            "id": 1,
+            "name": "Immmunity improvement",
+            "medications": [
+                {
+                    "name": "Echinacea 1% drops",
+                    "schedule": {
+                        "summary": "Take daily in morning with water, before breakfast",
+                        "takes": [
+                            {
+                                "planned": "2021-11-16T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "2021-11-16T08:03:08.888Z",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-17T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-18T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-19T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-20T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-21T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            },
+                            {
+                                "planned": "2021-11-22T08:00:00.888Z",
+                                "snoozed": "null",
+                                "taken": "null",
+                                "skipped": "null"
+                            }
+                        ]
+                    }
+                }
+            ],
+			"userPermissions": [
+                {
+                    "login": "drhouse@gmail.com",
+                    "permission": {
+                        "canWatch": true,
+                        "canTake": false,
+						"canEdit": true
+                    }
+                },
+				{
+                    "login": "rogerthat@yahoo.com",
+                    "permission": {
+                        "canWatch": true,
+                        "canTake": true,
+						"canEdit": false
+                    }
+                },
+				{
+                    "login": "mommy@google.com",
+                    "permission": {
+                        "canWatch": true,
+                        "canTake": false,
+						"canEdit": false
+                    }
+                }
+            ]
+        }
+    ],
+    "user_collection": [
+        {
+            "id": 1,
+            "login": "drhouse@gmail.com",
+            "profiles": [
+                {
+                    "name": "myself",
+					"treatmentIds": [1]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "login": "rogerthat@yahoo.com",
+            "profiles": [
+                {
+                    "name": "i",
+					"treatmentIds": [1]
+                },
+                {
+                    "name": "Spike (dog)",
+                    "permittedTreatments": []
+                }
+            ]
+        }
+    ]
+}

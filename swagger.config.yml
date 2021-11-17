@@ -1,0 +1,10 @@
+swagger:
+  outputDirectory: ./dist/swagger/
+  entryFile: 
+    - ./controllers/*
+  outputFormat: OpenApi_3
+  name: Tracker API
+  description: Backend
+  license: UNLICENSED
+  produces: [application/json]
+  version: 1.0.0
