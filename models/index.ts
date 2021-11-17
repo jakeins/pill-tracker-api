@@ -1,5 +1,6 @@
 export { IEntityRepository } from './entity-repository.interface';
 export { IId } from './id.interface';
+export { IGuid } from './guid.interface';
 export { IMedication } from './entity/medication.interface';
 export { IProfile } from './entity/profile.interface';
 export { ITake } from './entity/take.interface';

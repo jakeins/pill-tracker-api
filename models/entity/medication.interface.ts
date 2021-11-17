@@ -1,6 +1,7 @@
-import { ISchedule, ISingle } from "..";
+import { IGuid, ISchedule } from "..";
 
-export interface IMedication extends ISingle {
+export interface IMedication extends IGuid {
+  guid: string,
   name: string,
   schedule: ISchedule
 }

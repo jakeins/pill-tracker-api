@@ -55,29 +55,78 @@
                     }
                 }
             ],
-			"userPermissions": [
+            "userPermissions": [
                 {
                     "login": "drhouse@gmail.com",
                     "permission": {
                         "canWatch": true,
                         "canTake": false,
-						"canEdit": true
+                        "canEdit": true
                     }
                 },
-				{
+                {
                     "login": "rogerthat@yahoo.com",
                     "permission": {
                         "canWatch": true,
                         "canTake": true,
-						"canEdit": false
+                        "canEdit": false
                     }
                 },
-				{
+                {
                     "login": "mommy@google.com",
                     "permission": {
                         "canWatch": true,
                         "canTake": false,
-						"canEdit": false
+                        "canEdit": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "author": "bob@gmail.com",
+            "name": "Knee treatment",
+            "medications": [
+                {
+                    "guid": "fbdfdcc0-6216-4bfe-b1dc-906cad10ebe8",
+                    "name": "Calcium",
+                    "schedule": {
+                        "guid": "7cd31f8e-fb5c-41c3-bec0-8a41d60e5146",
+                        "summary": "One pill daily at 12:00 for two days",
+                        "takes": [
+                            {
+                                "guid": "e4729f48-0992-45f0-834e-38affc81a855",
+                                "planned": "2021-11-17T12:00.424Z",
+                                "snoozed": null,
+                                "taken": null,
+                                "skipped": null
+                            },
+                            {
+                                "guid": "ce4c0907-4d3a-4ada-b7f7-c9e61bee533f",
+                                "planned": "2021-11-18T12:00.424Z",
+                                "snoozed": null,
+                                "taken": null,
+                                "skipped": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "userPermissions": [
+                {
+                    "login": "bob@gmail.com",
+                    "permission": {
+                        "canWatch": true,
+                        "canTake": true,
+                        "canEdit": true
+                    }
+                },
+                {
+                    "login": "rogerthat@yahoo.com",
+                    "permission": {
+                        "canWatch": true,
+                        "canTake": true,
+                        "canEdit": true
                     }
                 }
             ]
@@ -90,7 +139,9 @@
             "profiles": [
                 {
                     "name": "myself",
-					"treatmentIds": [1]
+                    "treatmentIds": [
+                        1
+                    ]
                 }
             ]
         },
@@ -100,11 +151,21 @@
             "profiles": [
                 {
                     "name": "i",
-					"treatmentIds": [1]
+                    "treatmentIds": [
+                        1
+                    ]
                 },
                 {
                     "name": "Spike (dog)",
-                    "permittedTreatments": []
+                    "treatments": []
+                },
+                {
+                    "name": "bulba",
+                    "treatmentIds": [
+                        1,
+                        2,
+                        3
+                    ]
                 }
             ]
         }
