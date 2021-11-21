@@ -2,7 +2,7 @@ import { DELETE, GET, Path, PathParam, POST, PUT } from 'typescript-rest';
 import { Tags } from 'typescript-rest-swagger';
 
 import { ServiceContainer } from '../containers';
-import { IProfile, IUser } from '../models';
+import { IUser } from '../models';
 
 @Tags('Users')
 @Path('')
@@ -21,9 +21,6 @@ export class UserController {
   @GET
   public readAll(): IUser[] {
     const users = this.service.GetMany() as IUser[];
-
-    this.backCompatProfiles(users.flatMap(user => user.profiles));
-
     return users;
   }
 
@@ -31,9 +28,6 @@ export class UserController {
   @GET
   public readOne(@PathParam('id') id: number): IUser {
     const user = this.service.GetOne(id) as IUser;
-
-    this.backCompatProfiles(user.profiles);
-
     return user;
   }
 
@@ -52,14 +46,5 @@ export class UserController {
   @DELETE
   public deleteOne(@PathParam('id') id: number): void {
     this.service.DeleteOne(id);
-  }
-
-  /** Back-compatibility. TODO: migrate data and remove.  */
-  private backCompatProfiles(profiles: IProfile[]) {
-    profiles.forEach(profile => {
-      if (!profile.acceptedTreatmentIds) {
-        profile.acceptedTreatmentIds = (profile as any).treatmentIds || [];
-      }
-    });
   }
 }

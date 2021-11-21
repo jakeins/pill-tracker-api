@@ -139,33 +139,35 @@
             "profiles": [
                 {
                     "name": "myself",
-                    "treatmentIds": [
-                        1
-                    ],
                     "acceptedTreatmentIds": [
-                        1
+                        1,
+                        4
+                    ],
+                    "declinedTreatmentIds": [
+                        5,
+                        3
                     ]
                 },
                 {
                     "name": "Bob Dough",
-                    "treatmentIds": [],
                     "acceptedTreatmentIds": [
                         6,
                         7,
                         8,
                         9,
                         10
-                    ]
+                    ],
+                    "declinedTreatmentIds": []
                 },
                 {
                     "name": "xxx",
-                    "treatmentIds": [],
-                    "acceptedTreatmentIds": []
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 },
                 {
                     "name": "yyy",
-                    "treatmentIds": [],
-                    "acceptedTreatmentIds": []
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 }
             ]
         },
@@ -175,22 +177,21 @@
             "profiles": [
                 {
                     "name": "i",
-                    "treatmentIds": [
-                        1
-                    ],
                     "acceptedTreatmentIds": [
-                        1
-                    ]
+                        1,
+                        3
+                    ],
+                    "declinedTreatmentIds": []
                 },
                 {
                     "name": "Spike (dog)",
-                    "treatments": [],
-                    "acceptedTreatmentIds": []
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 },
                 {
                     "name": "bulba",
-                    "treatmentIds": [],
-                    "acceptedTreatmentIds": []
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 }
             ]
         }
