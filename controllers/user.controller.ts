@@ -2,7 +2,7 @@ import { DELETE, GET, Path, PathParam, POST, PUT } from 'typescript-rest';
 import { Tags } from 'typescript-rest-swagger';
 
 import { ServiceContainer } from '../containers';
-import { IUser } from '../models';
+import { IProfile, IUser } from '../models';
 
 @Tags('Users')
 @Path('')
@@ -12,20 +12,29 @@ export class UserController {
   @Path('/user')
   @POST
   public create(input: IUser): IUser {
-    const result = this.service.Create(input) as IUser;
+    let result = this.service.Create(input) as IUser;
+    result = this.readOne(result.id);
     return result;
   }
 
   @Path('/users')
   @GET
   public readAll(): IUser[] {
-    return this.service.GetMany() as IUser[];
+    const users = this.service.GetMany() as IUser[];
+
+    this.backCompatProfiles(users.flatMap(user => user.profiles));
+
+    return users;
   }
 
   @Path('/user/:id')
   @GET
   public readOne(@PathParam('id') id: number): IUser {
-    return this.service.GetOne(id) as IUser;
+    const user = this.service.GetOne(id) as IUser;
+
+    this.backCompatProfiles(user.profiles);
+
+    return user;
   }
 
   @Path('/user/:id')
@@ -34,7 +43,8 @@ export class UserController {
     if (id != input.id) {
       throw 'Id in path and body must match.';
     }
-    const result = this.service.Update(input) as IUser;
+    this.service.Update(input) as IUser;
+    const result = this.readOne(id);
     return result;
   }
 
@@ -42,5 +52,14 @@ export class UserController {
   @DELETE
   public deleteOne(@PathParam('id') id: number): void {
     this.service.DeleteOne(id);
+  }
+
+  /** Back-compatibility. TODO: migrate data and remove.  */
+  private backCompatProfiles(profiles: IProfile[]) {
+    profiles.forEach(profile => {
+      if (!profile.acceptedTreatmentIds) {
+        profile.acceptedTreatmentIds = (profile as any).treatmentIds || [];
+      }
+    });
   }
 }

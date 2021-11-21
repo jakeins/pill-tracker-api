@@ -141,7 +141,31 @@
                     "name": "myself",
                     "treatmentIds": [
                         1
+                    ],
+                    "acceptedTreatmentIds": [
+                        1
                     ]
+                },
+                {
+                    "name": "Bob Dough",
+                    "treatmentIds": [],
+                    "acceptedTreatmentIds": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "xxx",
+                    "treatmentIds": [],
+                    "acceptedTreatmentIds": []
+                },
+                {
+                    "name": "yyy",
+                    "treatmentIds": [],
+                    "acceptedTreatmentIds": []
                 }
             ]
         },
@@ -153,19 +177,20 @@
                     "name": "i",
                     "treatmentIds": [
                         1
+                    ],
+                    "acceptedTreatmentIds": [
+                        1
                     ]
                 },
                 {
                     "name": "Spike (dog)",
-                    "treatments": []
+                    "treatments": [],
+                    "acceptedTreatmentIds": []
                 },
                 {
                     "name": "bulba",
-                    "treatmentIds": [
-                        1,
-                        2,
-                        3
-                    ]
+                    "treatmentIds": [],
+                    "acceptedTreatmentIds": []
                 }
             ]
         }
