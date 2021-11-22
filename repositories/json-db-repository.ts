@@ -23,6 +23,8 @@ export class JsonDbRepository implements IEntityRepository {
   }
 
   public Create(body: ISingle): IId {
+    this.db.save();
+
     const entries = this.db.getData(this.collectionPath) as IId[];
 
     let maxId = Math.max(...entries.map(e => e.id));
@@ -43,10 +45,13 @@ export class JsonDbRepository implements IEntityRepository {
       throw `JsonDbRepo.Create:: Something went wrong.`;
     }
 
+    this.db.save();
     return result;
   }
 
   public GetOne(id: number): IId | null {
+    this.db.save();
+
     const index = this.db.getIndex(this.collectionPath, id);
 
     if (index < 0) {
@@ -55,15 +60,23 @@ export class JsonDbRepository implements IEntityRepository {
     }
 
     const result = this.db.getData(this.collectionPath + "[" + index + "]");
+
+    this.db.save();
     return result;
   }
 
   public GetMany(): IId[] {
+    this.db.save();
+
     const result = this.db.getData(this.collectionPath);
+
+    this.db.save();
     return result;
   }
 
   public Update(body: IId): IId {
+    this.db.save();
+
     let entry = this.GetOne(body.id);
 
     if (!entry) {
@@ -86,12 +99,17 @@ export class JsonDbRepository implements IEntityRepository {
       throw `JsonDbRepo.Update: Something went wrong.`;
     }
 
+    this.db.save();
     return result;
   }
 
   public DeleteOne(id: number): void {
+    this.db.save();
+
     const index = this.db.getIndex(this.collectionPath, id);
     this.db.delete(this.collectionPath + "[" + index + "]")
+
+    this.db.save();
   }
 
   private get collectionPath(): string {
