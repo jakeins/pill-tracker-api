@@ -520,6 +520,194 @@
                             }
                         ]
                     }
+                },
+                {
+                    "guid": "66581e05-4d05-4aa3-9768-aeb1a39e3f06",
+                    "name": "Savaysa 30mg",
+                    "schedule": {
+                        "guid": "24de2406-98c4-401f-9193-4f9897a36391",
+                        "summary": "",
+                        "takes": [
+                            {
+                                "guid": "66239581-06f5-4fe2-aaaa-a04badcd2fe6",
+                                "planned": "2021-11-24T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "c2c4a870-8c6e-468e-9368-d7d437631502",
+                                "planned": "2021-11-25T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "141d061c-8940-4abc-97b1-d29cadd2516e",
+                                "planned": "2021-11-26T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "53b75731-8461-4d57-b836-2c0492f21103",
+                                "planned": "2021-11-27T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "953f588d-e039-4c60-801b-a4e3cd336846",
+                                "planned": "2021-11-28T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "43492661-c4fd-4688-9789-56c368eea7a2",
+                                "planned": "2021-11-29T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "5bb6b647-bdba-4c1e-a5f9-8c4e1e526bab",
+                                "planned": "2021-11-30T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "d8c5c56d-5d51-40c9-8aab-a5803c17dfd0",
+                                "planned": "2021-12-01T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "e44a7ecf-76dc-45f6-820b-b8cbdcc376ca",
+                                "planned": "2021-12-02T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "7bcc5b8b-525c-4ce8-b9d2-f66bd32136dc",
+                                "planned": "2021-12-03T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "fce01e49-689e-40b1-a39a-df59261d27e2",
+                                "planned": "2021-12-04T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "f19a72e7-5aa1-4282-803a-9fa1549167f0",
+                                "planned": "2021-12-05T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "4b155609-1f03-4c27-bde3-cf6936f07307",
+                                "planned": "2021-12-06T20:00:00.000Z"
+                            },
+                            {
+                                "guid": "cca3bd66-ec18-43b0-83f4-56007769727c",
+                                "planned": "2021-12-07T20:00:00.000Z"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "guid": "e56d5084-e609-455a-9319-8b62a395c86b",
+                    "name": "Colchicine 1 dose",
+                    "schedule": {
+                        "guid": "d681efcc-56da-455b-97d8-414f29869063",
+                        "summary": "",
+                        "takes": [
+                            {
+                                "guid": "2eb7f96a-aa1b-4b8e-8b8e-817638a2620f",
+                                "planned": "2021-11-24T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "23b0e9e3-6b43-4db8-b412-30af7ba529e7",
+                                "planned": "2021-11-24T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "197ddd41-a866-4089-99d0-aba9edd71846",
+                                "planned": "2021-11-25T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "2103fa3c-8103-4db0-a2ab-9e3c04c5874b",
+                                "planned": "2021-11-25T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "db21e62e-a146-4808-97c2-8e94f3ce0625",
+                                "planned": "2021-11-26T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "3b98c658-aa0e-44b0-84d4-9cfa40b8d7c8",
+                                "planned": "2021-11-26T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "9f8aa02f-2a2c-443f-a123-ababf8b7066c",
+                                "planned": "2021-11-27T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "610439ae-d245-4cfe-90cf-459d81554398",
+                                "planned": "2021-11-27T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "c86546e5-69b8-4b52-acf0-7e92e54bd7a0",
+                                "planned": "2021-11-28T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "06b47ce6-875d-4750-b82a-e530ecd22e29",
+                                "planned": "2021-11-28T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "61afb219-b245-4b20-bf8b-b16e5527b563",
+                                "planned": "2021-11-29T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "3c62ad13-9402-4839-83a5-1e83a6a9edb6",
+                                "planned": "2021-11-29T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "91c73603-771c-407b-8381-f829677a466b",
+                                "planned": "2021-11-30T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "c95065e6-9989-4bf5-8f8f-c8fbae7b65cf",
+                                "planned": "2021-11-30T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "4e26bad8-db8a-4337-9838-ce9c44c95d39",
+                                "planned": "2021-12-01T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "de0e9d6f-1637-4578-877b-eb7cdf3dc1c6",
+                                "planned": "2021-12-01T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "a57588c6-fbc8-44b5-97e8-ca05b594c6c5",
+                                "planned": "2021-12-02T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "c4c317fa-bae5-4908-b51a-b5baf04e781a",
+                                "planned": "2021-12-02T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "69f15d32-9cb5-4089-a55f-cc41f450ab4a",
+                                "planned": "2021-12-03T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "c0b245b3-c348-4782-aab4-01d2ef5d94c0",
+                                "planned": "2021-12-03T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "1f21e079-04c0-4fc7-850d-71cec546f9e0",
+                                "planned": "2021-12-04T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "6055d68e-2ca5-4156-a71d-1b2b1e32f3aa",
+                                "planned": "2021-12-04T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "c32a1b58-a007-4b86-b1bc-1aca2a3230ba",
+                                "planned": "2021-12-05T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "f9866150-c555-4f8d-bb36-397494162f99",
+                                "planned": "2021-12-05T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "c0781a8f-4e85-4fdc-9211-576f36c75b81",
+                                "planned": "2021-12-06T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "1a22e11c-75b3-47f4-90df-cc57f6f7933b",
+                                "planned": "2021-12-06T16:30:00.000Z"
+                            },
+                            {
+                                "guid": "30336736-be8c-4364-ae4b-9518796cab5e",
+                                "planned": "2021-12-07T05:45:00.000Z"
+                            },
+                            {
+                                "guid": "21e32045-df43-4e3b-868a-c850f089bdcc",
+                                "planned": "2021-12-07T16:30:00.000Z"
+                            }
+                        ]
+                    }
                 }
             ],
             "userPermissions": [
@@ -673,6 +861,74 @@
                         "canTake": true,
                         "canEdit": false
                     }
+                }
+            ]
+        }
+    ],
+    "user_collection": [
+        {
+            "id": 1,
+            "login": "drgreen@gmail.com",
+            "profiles": [
+                {
+                    "name": "Amy Green",
+                    "acceptedTreatmentIds": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "declinedTreatmentIds": [
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "login": "viktoria@gmail.com",
+            "profiles": [
+                {
+                    "name": "Tori",
+                    "acceptedTreatmentIds": [
+                        0
+                    ],
+                    "declinedTreatmentIds": [
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "login": "pablo@gmail.com",
+            "profiles": [
+                {
+                    "name": "asdf",
+                    "acceptedTreatmentIds": [
+                        0
+                    ],
+                    "declinedTreatmentIds": [
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "login": "mary@gmail.com",
+            "profiles": [
+                {
+                    "name": "Mamie",
+                    "acceptedTreatmentIds": [
+                        0
+                    ],
+                    "declinedTreatmentIds": [
+                        0
+                    ]
                 }
             ]
         }
