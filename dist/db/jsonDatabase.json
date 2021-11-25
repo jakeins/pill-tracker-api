@@ -871,19 +871,32 @@
             "login": "drgreen@gmail.com",
             "profiles": [
                 {
-                    "name": "Amy Green",
+                    "name": "Andrew Robbins",
                     "acceptedTreatmentIds": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6
+                        1
                     ],
-                    "declinedTreatmentIds": [
-                        0
-                    ]
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Viktoria Robbins",
+                    "acceptedTreatmentIds": [
+                        2
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Pablo Robbins",
+                    "acceptedTreatmentIds": [
+                        3
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Mary Robbins",
+                    "acceptedTreatmentIds": [
+                        4
+                    ],
+                    "declinedTreatmentIds": []
                 }
             ]
         },
@@ -893,12 +906,8 @@
             "profiles": [
                 {
                     "name": "Tori",
-                    "acceptedTreatmentIds": [
-                        0
-                    ],
-                    "declinedTreatmentIds": [
-                        0
-                    ]
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 }
             ]
         },
@@ -908,12 +917,8 @@
             "profiles": [
                 {
                     "name": "asdf",
-                    "acceptedTreatmentIds": [
-                        0
-                    ],
-                    "declinedTreatmentIds": [
-                        0
-                    ]
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 }
             ]
         },
@@ -923,12 +928,8 @@
             "profiles": [
                 {
                     "name": "Mamie",
-                    "acceptedTreatmentIds": [
-                        0
-                    ],
-                    "declinedTreatmentIds": [
-                        0
-                    ]
+                    "acceptedTreatmentIds": [],
+                    "declinedTreatmentIds": []
                 }
             ]
         }
