@@ -950,8 +950,17 @@
             "login": "mary@gmail.com",
             "profiles": [
                 {
-                    "name": "Mamie",
-                    "acceptedTreatmentIds": [],
+                    "name": "Marry",
+                    "acceptedTreatmentIds": [
+                        4
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Kido",
+                    "acceptedTreatmentIds": [
+                        1
+                    ],
                     "declinedTreatmentIds": []
                 }
             ]
