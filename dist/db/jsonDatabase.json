@@ -905,8 +905,31 @@
             "login": "viktoria@gmail.com",
             "profiles": [
                 {
-                    "name": "Tori",
-                    "acceptedTreatmentIds": [],
+                    "name": "Baby Andrew",
+                    "acceptedTreatmentIds": [
+                        1
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "myself",
+                    "acceptedTreatmentIds": [
+                        2
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Pablo",
+                    "acceptedTreatmentIds": [
+                        3
+                    ],
+                    "declinedTreatmentIds": []
+                },
+                {
+                    "name": "Baby Mary",
+                    "acceptedTreatmentIds": [
+                        4
+                    ],
                     "declinedTreatmentIds": []
                 }
             ]
