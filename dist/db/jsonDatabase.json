@@ -10,7 +10,7 @@
                     "name": "Zithromax 1 pill after meal",
                     "schedule": {
                         "guid": "faa02593-c0d9-40ac-8463-12f3e5940462",
-                        "summary": "",
+                        "summary": "Take 3 times a day after the meal, for 7 days",
                         "takes": [
                             {
                                 "guid": "67e34490-d0b7-4460-8386-53eaf3169660",
@@ -145,7 +145,7 @@
                     "name": "Azithromycin 500mg pill ",
                     "schedule": {
                         "guid": "ab6290d9-7783-4aa6-8cbc-78f3f27bbf52",
-                        "summary": "",
+                        "summary": "Take 3 times a day after the meal, for 14 days",
                         "takes": [
                             {
                                 "guid": "bf7b0f05-d609-4256-a8c6-3e93198c3966",
@@ -348,7 +348,7 @@
                     "name": "Azithromycin 500mg pill ",
                     "schedule": {
                         "guid": "25f66861-4895-4e65-9e6e-50f2f0493e6e",
-                        "summary": "",
+                        "summary": "Take 3 times a day after the meal, for 14 days",
                         "takes": [
                             {
                                 "guid": "d8dea3f6-98c8-426d-a0c3-b08b7300837b",
@@ -526,7 +526,7 @@
                     "name": "Savaysa 30mg",
                     "schedule": {
                         "guid": "24de2406-98c4-401f-9193-4f9897a36391",
-                        "summary": "",
+                        "summary": "Take before the bed, for 14 days",
                         "takes": [
                             {
                                 "guid": "66239581-06f5-4fe2-aaaa-a04badcd2fe6",
@@ -592,7 +592,7 @@
                     "name": "Colchicine 1 dose",
                     "schedule": {
                         "guid": "d681efcc-56da-455b-97d8-414f29869063",
-                        "summary": "",
+                        "summary": "Take 2 pills a day after the meal, for 14 days",
                         "takes": [
                             {
                                 "guid": "2eb7f96a-aa1b-4b8e-8b8e-817638a2620f",
@@ -747,7 +747,7 @@
                     "name": "Zithromax 1 pill after meal",
                     "schedule": {
                         "guid": "055198de-a46a-4f34-82b7-fe2e95e2996f",
-                        "summary": "",
+                        "summary": "Take 3 times a day after the meal, for 7 days",
                         "takes": [
                             {
                                 "guid": "a35b0d9d-7068-4bb6-9d67-df280aeab167",
